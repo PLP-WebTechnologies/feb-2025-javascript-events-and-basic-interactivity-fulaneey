@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2e8b57;
+  }
+  
+  #quote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #246b46;
+    transform: scale(1.05);
+  }
+  
+  /* Hover Div */
+  #hoverDiv {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 60%;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  #hoverDiv:hover {
+    background-color: #ffeaa7;
+    transform: scale(1.1);
+  }
+  
+  /* Gallery */
+  .gallery {
+    margin-top: 30px;
+  }
+  
+  #galleryImage {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .gallery-buttons {
+    margin-top: 10px;
+  }
+  
+  /* Accordion */
+  .accordion {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .accordion:hover {
+    background-color: #ddd;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  
+  /* Form */
+  form {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+  }
+  
+  /* Password Feedback */
+  #passwordFeedback {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
